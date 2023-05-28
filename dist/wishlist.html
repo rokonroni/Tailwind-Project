@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Account</title>
+    <title>Wishlist</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
@@ -36,7 +36,7 @@
 
             <!-- Icons -->
             <dev class="flex items-center space-x-4">
-                <a href="#" class="text-center text-gray-700 hover:text-primary transition relative">
+                <a href="wishlist.html" class="text-center text-gray-700 hover:text-primary transition relative">
                     <div class="text-2xl">
                         <i class="far fa-heart"></i>
                     </div>
@@ -130,10 +130,10 @@
         <span class="text-sm text-gray-400">
             <i class="fas fa-chevron-right"></i>
         </span>
-        <p class="text-gray-600 font-medium">My Account</p>
+        <p class="text-gray-600 font-medium">Wishlist</p>
     </div>
     <!-- Breadcrumbs End  -->
-    <!-- Account Wrapper Start -->
+    <!-- Wishlist Wrapper Start -->
     <div class="container grid grid-cols-12 items-start gap-6 pt-4 pb-16">
         <!-- Sidebar Start -->
         <div class="col-span-3">
@@ -152,13 +152,14 @@
             <div class="mt-6 bg-white shadow rounded p-4 divide-y divide-gray-200 space-y-4 text-gray-600">
                 <!-- Single Link Start -->
                 <div class="space-y-1 pl-8">
-                    <a href="account.html" class="relative text-primary block font-medium capitalize transition">
+                    <a href="account.html" class="relative hover:text-primary block font-medium capitalize transition">
                         <span class="absolute -left-8 top-0 text-base">
                             <i class="far fa-address-card"></i>
                         </span>
                         Manage account
                     </a>
-                    <a href="profile-info.html" class="relative hover:text-primary block capitalize transition">Profile Info</a>
+                    <a href="profile-info.html" class="relative hover:text-primary block capitalize transition">Profile
+                        Info</a>
                     <a href="#" class="relative hover:text-primary block capitalize transition">Manage Address</a>
                     <a href="#" class="relative hover:text-primary block capitalize transition">Change Password</a>
                 </div>
@@ -169,7 +170,7 @@
                         <span class="absolute -left-8 top-0 text-base">
                             <i class="far fa-address-card"></i>
                         </span>
-                       My order history
+                        My order history
                     </a>
                     <a href="#" class="relative hover:text-primary block capitalize transition">My returns</a>
                     <a href="#" class="relative hover:text-primary block capitalize transition">My cancellations</a>
@@ -185,16 +186,16 @@
                         Payment Methods
                     </a>
                     <a href="#" class="relative hover:text-primary block capitalize transition">Voucher</a>
-                    
+
                 </div>
                 <!-- Single Link End -->
                 <!-- Single Link Start -->
                 <div class="space-y-1 pl-8 pt-4">
-                    <a href="wishlist.html" class="relative hover:text-primary block font-medium capitalize transition">
+                    <a href="#" class="relative text-medium text-primary  block font-medium capitalize transition">
                         <span class="absolute -left-8 top-0 text-base">
                             <i class="far fa-heart"></i>
                         </span>
-                       My wishlish
+                        My wishlish
                     </a>
                 </div>
                 <!-- Single Link End -->
@@ -212,51 +213,77 @@
             <!-- Profile Links End -->
         </div>
         <!-- Sidebar End -->
-        <!-- Profile Info Start -->
-        <div class="col-span-9 grid grid-cols-3 gap-4">
-            <!-- Single Card Start -->
-            <div class="shadow rounded bg-white px-4 pt-6 pb-8">
-                <div class="flex justify-between items-center mb-4">
-                    <h3 class="font-medium text-gray-800 text-lg capitalize">Personal profile</h3>
-                    <a href="#" class="text-primary">Edit</a>
-                </div>
-                <div class="space-y-1">
-                    <h4 class="text-gray-700 font-medium">Dawal Vards</h4>
-                    <p class="text-gray-800">example@mail.com</p>
-                    <p class="text-gray-800">+123 456-789</p>
-                </div>
+        <!-- Wishlist Info Start -->
+       <div class="col-span-9 space-y-4">
+        <!-- Single Wishlist Start -->
+        <div class="flex items-center justify-between gap-6 p-4 border border-gray-200 rounded">
+            <div class="w-28 flex-shrink-0">
+                <img src="images/products/product9.jpg" class="w-full">
             </div>
-            <!-- Single Card End -->
-            <!-- Single Card Start -->
-            <div class="shadow rounded bg-white px-4 pt-6 pb-8">
-                <div class="flex justify-between items-center mb-4">
-                    <h3 class="font-medium text-gray-800 text-lg capitalize">Shipping Address</h3>
-                    <a href="#" class="text-primary">Edit</a>
-                </div>
-                <div class="space-y-1">
-                    <h4 class="text-gray-700 font-medium">Dawal Vards</h4>
-                    <p class="text-gray-800">3891 Ranchview Dr. Richardson, California</p>
-                    <p class="text-gray-800">+123 456-789</p>
-                </div>
+            <div class="w-1/3">
+                <h2 class="text-gray-800 text-xl font-medium uppercase">
+                    Italian L Shape Sofa
+                </h2>
+                <p class="text-gray-599 text-sm">
+                    Availability: <span class="text-green-600">In Stock</span>
+                </p>
             </div>
-            <!-- Single Card End -->
-            <!-- Single Card Start -->
-            <div class="shadow rounded bg-white px-4 pt-6 pb-8">
-                <div class="flex justify-between items-center mb-4">
-                    <h3 class="font-medium text-gray-800 text-lg capitalize">Billing address</h3>
-                    <a href="#" class="text-primary">Edit</a>
-                </div>
-                <div class="space-y-1">
-                    <h4 class="text-gray-700 font-medium">Dawal Vards</h4>
-                    <p class="text-gray-800">3891 Ranchview Dr. Richardson, California</p>
-                    <p class="text-gray-800">+123 456-789</p>
-                </div>
+            <div class="text-primary text-lg font-semibold">$320.00</div>
+            <a href="#" class="px-6 py-2 text-center text-sm text-white bg-primary border border-primary rounded hover:bg-transparent hover:text-primary transition uppercase font-medium font-roboto">Add to Cart</a>
+            <div class="text-gray-600 cursor-pointer hover:text-primary">
+                <i class="fas fa-trash"></i>
             </div>
-            <!-- Single Card End -->
         </div>
-        <!-- Profile Info End -->
+        <!-- Single Wishlist End -->
+        <!-- Single Wishlist Start -->
+        <div class="flex items-center justify-between gap-6 p-4 border border-gray-200 rounded">
+            <div class="w-28 flex-shrink-0">
+                <img src="images/products/product9.jpg" class="w-full">
+            </div>
+            <div class="w-1/3">
+                <h2 class="text-gray-800 text-xl font-medium uppercase">
+                    Italian L Shape Sofa
+                </h2>
+                <p class="text-gray-599 text-sm">
+                    Availability: <span class="text-green-600">In Stock</span>
+                </p>
+            </div>
+            <div class="text-primary text-lg font-semibold">$320.00</div>
+            <a href="#"
+                class="px-6 py-2 text-center text-sm text-white bg-primary border border-primary rounded hover:bg-transparent hover:text-primary transition uppercase font-medium font-roboto">Add
+                to Cart</a>
+            <div class="text-gray-600 cursor-pointer hover:text-primary">
+                <i class="fas fa-trash"></i>
+            </div>
+        </div>
+        <!-- Single Wishlist End -->
+        <!-- Single Wishlist Start -->
+        <div class="flex items-center justify-between gap-6 p-4 border border-gray-200 rounded">
+            <div class="w-28 flex-shrink-0">
+                <img src="images/products/product9.jpg" class="w-full">
+            </div>
+            <div class="w-1/3">
+                <h2 class="text-gray-800 text-xl font-medium uppercase">
+                    Italian L Shape Sofa
+                </h2>
+                <p class="text-gray-599 text-sm">
+                    Availability: <span class="text-red-600">Out of Stock</span>
+                </p>
+            </div>
+            <div class="text-primary text-lg font-semibold">$320.00</div>
+            <a href="#"
+                class="cursor-not-allowed px-6 py-2 text-center text-sm text-white bg-red-400 border border-red-400 rounded  transition uppercase font-medium font-roboto">Add
+                to Cart</a>
+            <div class="text-gray-600 cursor-pointer hover:text-primary">
+                <i class="fas fa-trash"></i>
+            </div>
+        </div>
+        <!-- Single Wishlist End -->
+        
+       </div>
+        <!-- Wishlist Info End -->
     </div>
-    <!-- Account Wrapper End -->
+    <!-- Wishlist Wrapper End -->
     <!-- Footer Start -->
     <footer class="bg-white pt-16 pb-12 border-t border-gray-100">
         <div class="container grid grid-cols-3">
@@ -339,4 +366,4 @@
     <!-- Copyright Area End -->
 </body>
 
-</html> 
+</html>
